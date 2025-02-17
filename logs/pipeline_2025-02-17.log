@@ -6,3 +6,7 @@
 2025-02-17 17:29:57,832 - INFO - Data successfully processed and cleaned.
 2025-02-17 17:29:57,837 - INFO - Data successfully saved to artifacts/crypto_data.csv
 2025-02-17 17:29:57,850 - INFO - Pipeline executed successfully!
+2025-02-17 18:02:30,578 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-17 18:02:33,651 - INFO - Data successfully processed and cleaned.
+2025-02-17 18:02:33,677 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-17 18:02:33,689 - INFO - Pipeline executed successfully!
