@@ -4,7 +4,24 @@
 This project is a **cryptocurrency data pipeline** that fetches historical price data from Binance, preprocesses it, and saves it for further analysis and model training.
 
 ## 🏗 Project Structure
-Cryptocurrency_Prediction/ │── src/ # Source code │ ├── components/ # Data pipeline components │ │ ├── data_fetcher.py # Fetches historical data from Binance API │ │ ├── data_preprocessor.py # Cleans and prepares the data │ │ ├── model_trainer.py # Model training (if applicable) │ ├── utils/ # Utility functions │ │ ├── helpers.py # Helper functions │ ├── logs/ # Log files (auto-generated daily) │ ├── exception.py # Custom exception handling │ ├── logger.py # Logger setup │── artifacts/ # Processed data and saved models │── pipeline_manager.py # Main script to run the pipeline │── requirements.txt # Required Python dependencies │── README.md # Project documentation │── .gitignore # Files to ignore in Git
+```bash
+Cryptocurrency_Prediction/
+|--- src/                     # Source code
+|    |--- components/          # Data pipeline components
+|    |    |--- data_fetcher.py  # Fetches historical data from Binance API
+|    |    |--- data_preprocessor.py # Cleans and prepares the data
+|    |    |--- model_trainer.py # Model training (if applicable)
+|    |--- utils/               # Utility functions
+|    |    |--- helpers.py       # Helper functions
+|    |--- logs/                # Log files (auto-generated daily)
+|    |--- exception.py         # Custom exception handling
+|    |--- logger.py            # Logger setup
+|--- artifacts/               # Processed data and saved models
+|--- pipeline_manager.py      # Main script to run the pipeline
+|--- requirements.txt         # Required Python dependencies
+|--- README.md                # Project documentation
+|--- .gitignore               # Files to ignore in Git
+```
 
 
 ## 📥 Installation
