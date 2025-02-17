@@ -29,7 +29,7 @@ To set up the project, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Cryptocurrency_Prediction.git
+git clone https://github.com/SelmaKhelili/Cryptocurrency_Prediction.git
 
 # Navigate into the project directory
 cd Cryptocurrency_Prediction
