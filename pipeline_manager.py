@@ -7,6 +7,8 @@ from src.components.twitter.data_fetcher import TwitterDataFetcher
 from src.components.twitter.data_preprocessor import TextDataPreprocessor
 import argparse
 
+# python pipeline_manager.py --coin_name bitcoin --interval 1d --limit 365 --tweet_count 10
+
 logger = get_logger()
 
 if __name__ == "__main__":
@@ -19,7 +21,6 @@ if __name__ == "__main__":
         parser.add_argument("--coin_name", type=str, help="Name of the cryptocurrency (e.g., ethereum, bitcoin)", required=True)
         parser.add_argument("--interval", type=str, default="1d", help="Time interval (e.g., 1m, 1h, 1d)")
         parser.add_argument("--limit", type=int, default=365, help="Number of data points to fetch")
-        parser.add_argument("--twitter_query", type=str, help="Query to search for on Twitter (e.g., bitcoin)")
         parser.add_argument("--tweet_count", type=int, default=10, help="Number of tweets to fetch")
 
         args = parser.parse_args()
