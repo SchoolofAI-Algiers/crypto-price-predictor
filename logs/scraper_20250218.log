@@ -1,0 +1,148 @@
+2025-02-18 20:19:24,331 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:19:24,331 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:19:24,331 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/cryptocurrencies
+2025-02-18 20:19:25,889 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 1/3
+2025-02-18 20:19:29,667 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 2/3
+2025-02-18 20:19:33,562 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 3/3
+2025-02-18 20:19:37,389 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:21:41,559 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:21:41,559 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:21:41,559 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/cryptocurrencies
+2025-02-18 20:21:43,959 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Trying without class - found 7 h3 elements
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 1 classes: ['_yb_1fddb99', '_yb_2os0je']
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 1 text: News
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 2 classes: ['_yb_1fddb99', '_yb_2os0je']
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 2 text: Life
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 3 classes: ['_yb_1fddb99', '_yb_2os0je']
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Article 3 text: Entertainment
+2025-02-18 20:21:43,961 [ERROR] src.scraper.crypto_scraper: Error in news collection: 'CryptoContentScraper' object has no attribute '_parse_main_page'
+2025-02-18 20:21:43,961 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:21:43,962 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:23:50,138 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:23:50,138 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:23:50,138 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/crypto
+2025-02-18 20:23:52,221 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:23:52,221 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 1/3
+2025-02-18 20:23:52,665 [ERROR] src.scraper.crypto_scraper: Error in news collection: 404 Client Error: Not Found for url: https://finance.yahoo.com/news/topic/crypto
+2025-02-18 20:23:52,665 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:23:52,665 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:24:27,622 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:24:27,622 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:24:27,622 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/crypto
+2025-02-18 20:24:37,529 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:24:37,530 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 1/3
+2025-02-18 20:24:37,973 [ERROR] src.scraper.crypto_scraper: Error in news collection: 404 Client Error: Not Found for url: https://finance.yahoo.com/news/topic/crypto
+2025-02-18 20:24:37,974 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:24:37,974 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:26:32,324 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:26:32,324 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:26:32,325 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/crypto
+2025-02-18 20:26:35,933 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:26:35,933 [INFO] src.scraper.crypto_scraper: Fetching crypto news page 1/3
+2025-02-18 20:26:36,558 [ERROR] src.scraper.crypto_scraper: Error in news collection: 404 Client Error: Not Found for url: https://finance.yahoo.com/news/topic/crypto
+2025-02-18 20:26:36,558 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:26:36,558 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:28:02,489 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:28:02,489 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:28:02,489 [INFO] src.scraper.crypto_scraper: Trying URL: https://finance.yahoo.com/cryptocurrencies/news
+2025-02-18 20:28:03,698 [ERROR] src.scraper.crypto_scraper: Error accessing https://finance.yahoo.com/cryptocurrencies/news: 404 Client Error: Not Found for url: https://finance.yahoo.com/cryptocurrencies/news
+2025-02-18 20:28:03,698 [INFO] src.scraper.crypto_scraper: Trying URL: https://finance.yahoo.com/topic/cryptocurrency
+2025-02-18 20:28:04,518 [ERROR] src.scraper.crypto_scraper: Error accessing https://finance.yahoo.com/topic/cryptocurrency: 404 Client Error: Not Found for url: https://finance.yahoo.com/topic/cryptocurrency/
+2025-02-18 20:28:04,518 [INFO] src.scraper.crypto_scraper: Trying URL: https://finance.yahoo.com/news/crypto
+2025-02-18 20:28:06,842 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'class': 'js-stream-content'})
+2025-02-18 20:28:06,849 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'data-test-locator': 'streamPosts'})
+2025-02-18 20:28:06,857 [INFO] src.scraper.crypto_scraper: Found 6 articles with selector ('li', {'class': 'js-stream-content'})
+2025-02-18 20:28:06,875 [INFO] src.scraper.crypto_scraper: Found 6 articles with selector ('div', {'class': 'Py(14px)'})
+2025-02-18 20:28:06,889 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'class': 'NewsArticle'})
+2025-02-18 20:28:06,889 [INFO] src.scraper.crypto_scraper: Trying URL: https://finance.yahoo.com/crypto
+2025-02-18 20:28:09,209 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'class': 'js-stream-content'})
+2025-02-18 20:28:09,223 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'data-test-locator': 'streamPosts'})
+2025-02-18 20:28:09,240 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('li', {'class': 'js-stream-content'})
+2025-02-18 20:28:09,256 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'class': 'Py(14px)'})
+2025-02-18 20:28:09,274 [INFO] src.scraper.crypto_scraper: Found 0 articles with selector ('div', {'class': 'NewsArticle'})
+2025-02-18 20:28:09,274 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:28:09,274 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:29:54,325 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:29:54,326 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:29:54,326 [INFO] src.scraper.crypto_scraper: Fetching news from: https://finance.yahoo.com/news/crypto
+2025-02-18 20:29:54,326 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:29:58,157 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 1
+2025-02-18 20:30:00,161 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:30:03,458 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 2
+2025-02-18 20:30:05,462 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:30:08,322 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 3
+2025-02-18 20:30:10,326 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:30:10,326 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:47:23,827 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:47:23,827 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:47:23,827 [INFO] src.scraper.crypto_scraper: Fetching news from: https://finance.yahoo.com/news/crypto
+2025-02-18 20:47:23,827 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:47:31,525 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 1
+2025-02-18 20:47:33,527 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:47:37,399 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 2
+2025-02-18 20:47:39,402 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:47:41,948 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 3
+2025-02-18 20:47:43,951 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:47:43,951 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:47:55,372 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:47:55,372 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:47:55,372 [INFO] src.scraper.crypto_scraper: Fetching news from: https://finance.yahoo.com/news/crypto
+2025-02-18 20:47:55,372 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:48:00,076 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 1
+2025-02-18 20:48:02,079 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:48:06,461 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 2
+2025-02-18 20:48:08,464 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:48:13,895 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 3
+2025-02-18 20:48:15,898 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:48:15,898 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:52:08,890 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:52:08,890 [INFO] src.scraper.crypto_scraper: Starting news collection from 2024-02-01 00:00:00 to 2025-02-18 00:00:00
+2025-02-18 20:52:08,890 [INFO] src.scraper.crypto_scraper: Fetching news from: https://finance.yahoo.com/news/crypto
+2025-02-18 20:52:08,890 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:52:12,708 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 1
+2025-02-18 20:52:14,711 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:52:18,601 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 2
+2025-02-18 20:52:20,604 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:52:24,905 [INFO] src.scraper.crypto_scraper: Found 6 articles on page 3
+2025-02-18 20:52:26,908 [INFO] src.scraper.crypto_scraper: Total articles collected: 0
+2025-02-18 20:52:26,908 [WARNING] src.pipeline.pipeline_manager: No data was collected!
+2025-02-18 20:52:41,450 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2025-02-11 20:52:41.450808 to 2025-02-18 20:52:41.450808
+2025-02-18 20:52:41,450 [INFO] src.scraper.crypto_scraper: Starting news collection from 2025-02-11 20:52:41.450808 to 2025-02-18 20:52:41.450808
+2025-02-18 20:52:41,450 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/cryptocurrencies
+2025-02-18 20:52:44,079 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:52:44,079 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:52:46,260 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 1
+2025-02-18 20:52:48,261 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:52:50,667 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 2
+2025-02-18 20:52:52,669 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:52:57,808 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 3
+2025-02-18 20:52:59,810 [INFO] src.scraper.crypto_scraper: Found 51 articles on news pages
+2025-02-18 20:52:59,810 [ERROR] src.scraper.crypto_scraper: Error parsing timestamp streaming now: invalid literal for int() with base 10: ''
+2025-02-18 20:52:59,847 [ERROR] src.scraper.crypto_scraper: Error parsing timestamp streaming now: invalid literal for int() with base 10: ''
+2025-02-18 20:52:59,847 [ERROR] src.scraper.crypto_scraper: Error parsing timestamp streaming now: invalid literal for int() with base 10: ''
+2025-02-18 20:52:59,847 [INFO] src.scraper.crypto_scraper: Filtered to 3 articles within date range
+2025-02-18 20:52:59,851 [INFO] src.pipeline.pipeline_manager: Data saved to /home/khadidja/Desktop/crypto-price-predictor/artifacts/data/crypto_content_20250218_205259.csv
+2025-02-18 20:52:59,851 [INFO] src.pipeline.pipeline_manager: Total items collected: 3
+2025-02-18 20:52:59,852 [INFO] src.pipeline.pipeline_manager: Content breakdown:
+content_type
+news    3
+Name: count, dtype: int64
+2025-02-18 20:59:42,452 [INFO] src.pipeline.pipeline_manager: Starting pipeline run from 2025-01-19 20:59:42.452088 to 2025-02-18 20:59:42.452088
+2025-02-18 20:59:42,452 [INFO] src.scraper.crypto_scraper: Starting news collection from 2025-01-19 20:59:42.452088 to 2025-02-18 20:59:42.452088
+2025-02-18 20:59:42,452 [INFO] src.scraper.crypto_scraper: Fetching main crypto page: https://finance.yahoo.com/cryptocurrencies
+2025-02-18 20:59:45,156 [INFO] src.scraper.crypto_scraper: Found 0 articles on main page
+2025-02-18 20:59:45,156 [INFO] src.scraper.crypto_scraper: Fetching page 1/3: https://finance.yahoo.com/news/crypto
+2025-02-18 20:59:47,342 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 1
+2025-02-18 20:59:49,345 [INFO] src.scraper.crypto_scraper: Fetching page 2/3: https://finance.yahoo.com/news/crypto?offset=20
+2025-02-18 20:59:51,486 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 2
+2025-02-18 20:59:53,488 [INFO] src.scraper.crypto_scraper: Fetching page 3/3: https://finance.yahoo.com/news/crypto?offset=40
+2025-02-18 20:59:56,283 [INFO] src.scraper.crypto_scraper: Found 17 articles on page 3
+2025-02-18 20:59:58,285 [INFO] src.scraper.crypto_scraper: Found 51 articles on news pages
+2025-02-18 20:59:58,286 [INFO] src.scraper.crypto_scraper: Filtered to 48 articles within date range
+2025-02-18 20:59:58,291 [INFO] src.pipeline.pipeline_manager: Data saved to /home/khadidja/Desktop/crypto-price-predictor/artifacts/data/crypto_content_20250218_205958.csv
+2025-02-18 20:59:58,291 [INFO] src.pipeline.pipeline_manager: Total items collected: 48
+2025-02-18 20:59:58,293 [INFO] src.pipeline.pipeline_manager: Content breakdown:
+content_type
+news    48
+Name: count, dtype: int64
