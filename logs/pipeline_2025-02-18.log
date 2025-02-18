@@ -1,0 +1,133 @@
+2025-02-18 16:34:54,132 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 16:45:48,420 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 16:46:18,052 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 16:46:18,055 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 16:46:18,056 - INFO - Pipeline executed successfully!
+2025-02-18 16:48:38,031 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 16:49:27,748 - ERROR - An error occurred in the pipeline: 'title'
+2025-02-18 16:53:19,073 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 16:54:06,290 - INFO - Fetched DataFrame columns: []
+2025-02-18 16:54:06,291 - INFO - Number of posts fetched: 0
+2025-02-18 16:54:06,292 - WARNING - Empty DataFrame received
+2025-02-18 16:54:06,298 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 16:54:06,300 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 16:54:06,300 - INFO - Pipeline executed successfully!
+2025-02-18 16:57:41,612 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 16:57:41,615 - INFO - Fetching posts between 2024-01-01 and 2024-01-31
+2025-02-18 16:57:41,615 - INFO - Timestamps: 1704063600 to 1706742000
+2025-02-18 16:57:41,616 - INFO - Fetching from r/Bitcoin
+2025-02-18 16:57:54,240 - INFO - Found 0 matching posts in r/Bitcoin
+2025-02-18 16:57:54,240 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 16:58:05,931 - INFO - Found 0 matching posts in r/CryptoCurrency
+2025-02-18 16:58:05,931 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 16:58:17,408 - INFO - Found 0 matching posts in r/CryptoMarkets
+2025-02-18 16:58:17,408 - INFO - Fetching from r/btc
+2025-02-18 16:58:31,076 - INFO - Found 0 matching posts in r/btc
+2025-02-18 16:58:31,077 - INFO - Total posts processed: 3507
+2025-02-18 16:58:31,077 - INFO - Total matching posts: 0
+2025-02-18 16:58:31,079 - WARNING - No posts were found matching the criteria!
+2025-02-18 16:58:31,080 - WARNING - Empty DataFrame received
+2025-02-18 16:58:31,085 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 16:58:31,086 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 16:58:31,087 - INFO - Pipeline executed successfully!
+2025-02-18 17:01:24,453 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 17:01:24,455 - INFO - Fetching posts between 2024-01-01 and 2024-01-31
+2025-02-18 17:01:24,456 - INFO - Timestamps: 1704063600 to 1706742000
+2025-02-18 17:01:24,456 - INFO - Fetching from r/Bitcoin
+2025-02-18 17:01:37,617 - INFO - Found 0 matching posts in r/Bitcoin
+2025-02-18 17:01:37,618 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 17:01:48,141 - INFO - Found 0 matching posts in r/CryptoCurrency
+2025-02-18 17:01:48,142 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 17:02:12,060 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 17:02:12,062 - INFO - Fetching posts between 2024-01-01 and 2024-01-31
+2025-02-18 17:02:12,062 - INFO - Timestamps: 1704063600 to 1706742000
+2025-02-18 17:02:12,062 - INFO - Fetching from r/Bitcoin
+2025-02-18 17:02:25,378 - INFO - Found 0 matching posts in r/Bitcoin
+2025-02-18 17:02:25,379 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 17:02:36,580 - INFO - Found 0 matching posts in r/CryptoCurrency
+2025-02-18 17:02:36,580 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 17:02:47,930 - INFO - Found 0 matching posts in r/CryptoMarkets
+2025-02-18 17:02:47,930 - INFO - Fetching from r/btc
+2025-02-18 17:03:01,740 - INFO - Found 0 matching posts in r/btc
+2025-02-18 17:03:01,741 - INFO - Total posts processed: 3507
+2025-02-18 17:03:01,741 - INFO - Total matching posts: 0
+2025-02-18 17:03:01,743 - WARNING - No posts were found matching the criteria!
+2025-02-18 17:03:01,744 - WARNING - Empty DataFrame received
+2025-02-18 17:03:01,746 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 17:03:01,747 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 17:03:01,747 - INFO - Pipeline executed successfully!
+2025-02-18 17:03:13,312 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 17:03:13,315 - INFO - Fetching posts between 2024-01-01 and 2024-01-31
+2025-02-18 17:03:13,315 - INFO - Timestamps: 1704063600 to 1706742000
+2025-02-18 17:03:13,315 - INFO - Fetching from r/Bitcoin
+2025-02-18 17:03:25,883 - INFO - Found 0 matching posts in r/Bitcoin
+2025-02-18 17:03:25,884 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 17:03:36,505 - INFO - Found 0 matching posts in r/CryptoCurrency
+2025-02-18 17:03:36,505 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 17:03:48,263 - INFO - Found 0 matching posts in r/CryptoMarkets
+2025-02-18 17:03:48,264 - INFO - Fetching from r/btc
+2025-02-18 17:04:01,596 - INFO - Found 0 matching posts in r/btc
+2025-02-18 17:04:01,596 - INFO - Total posts processed: 3507
+2025-02-18 17:04:01,597 - INFO - Total matching posts: 0
+2025-02-18 17:04:01,600 - WARNING - No posts were found matching the criteria!
+2025-02-18 17:04:01,601 - WARNING - Empty DataFrame received
+2025-02-18 17:04:01,604 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 17:04:01,605 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 17:04:01,606 - INFO - Pipeline executed successfully!
+2025-02-18 17:04:46,819 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 17:04:46,821 - INFO - Fetching posts between 2025-02-10 and 2025-02-17
+2025-02-18 17:04:46,821 - INFO - Timestamps: 1739142000 to 1739833200
+2025-02-18 17:04:46,821 - INFO - Fetching from r/Bitcoin
+2025-02-18 17:05:00,304 - INFO - Found 385 matching posts in r/Bitcoin
+2025-02-18 17:05:00,304 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 17:05:11,536 - INFO - Found 113 matching posts in r/CryptoCurrency
+2025-02-18 17:05:11,536 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 17:05:23,893 - INFO - Found 64 matching posts in r/CryptoMarkets
+2025-02-18 17:05:23,894 - INFO - Fetching from r/btc
+2025-02-18 17:05:36,707 - INFO - Found 62 matching posts in r/btc
+2025-02-18 17:05:36,707 - INFO - Total posts processed: 3507
+2025-02-18 17:05:36,707 - INFO - Total matching posts: 624
+2025-02-18 17:05:36,712 - INFO - Processing DataFrame with columns: ['subreddit', 'title', 'text', 'upvotes', 'num_comments', 'created_utc']
+2025-02-18 17:05:37,247 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 17:05:37,249 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 17:05:37,249 - INFO - Pipeline executed successfully!
+2025-02-18 17:08:29,025 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 17:08:29,029 - INFO - Initialized DataFetcher for BTC
+2025-02-18 17:08:29,029 - INFO - Using subreddits: ['Bitcoin', 'CryptoCurrency', 'CryptoMarkets', 'btc']
+2025-02-18 17:08:29,029 - INFO - Using keywords: ['bitcoin', 'btc', 'satoshi', 'bitcoin price', 'bitcoin halving']
+2025-02-18 17:08:29,030 - INFO - Fetching posts between 2025-02-10 and 2025-02-17
+2025-02-18 17:08:29,030 - INFO - Timestamps: 1739142000 to 1739833200
+2025-02-18 17:08:29,030 - INFO - Fetching from r/Bitcoin
+2025-02-18 17:08:42,373 - INFO - Found 385 matching posts in r/Bitcoin
+2025-02-18 17:08:42,373 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 17:08:54,337 - INFO - Found 113 matching posts in r/CryptoCurrency
+2025-02-18 17:08:54,337 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 17:09:05,478 - INFO - Found 64 matching posts in r/CryptoMarkets
+2025-02-18 17:09:05,479 - INFO - Fetching from r/btc
+2025-02-18 17:09:18,309 - INFO - Found 62 matching posts in r/btc
+2025-02-18 17:09:18,309 - INFO - Total posts processed: 3507
+2025-02-18 17:09:18,309 - INFO - Total matching posts: 624
+2025-02-18 17:09:18,312 - INFO - Processing DataFrame with columns: ['subreddit', 'title', 'text', 'upvotes', 'num_comments', 'created_utc', 'cryptocurrency']
+2025-02-18 17:09:18,900 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 17:09:18,904 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 17:09:18,904 - INFO - Pipeline executed successfully!
+2025-02-18 18:13:26,562 - INFO - Starting the Reddit Sentiment Analysis pipeline...
+2025-02-18 18:13:26,872 - INFO - Initialized DataFetcher for BTC
+2025-02-18 18:13:26,872 - INFO - Using subreddits: ['Bitcoin', 'CryptoCurrency', 'CryptoMarkets', 'btc']
+2025-02-18 18:13:26,873 - INFO - Using keywords: ['bitcoin', 'btc', 'satoshi', 'bitcoin price', 'bitcoin halving']
+2025-02-18 18:13:26,873 - INFO - Fetching posts between 2025-02-10 and 2025-02-17
+2025-02-18 18:13:26,873 - INFO - Timestamps: 1739142000 to 1739833200
+2025-02-18 18:13:26,874 - INFO - Fetching from r/Bitcoin
+2025-02-18 18:13:41,355 - INFO - Found 384 matching posts in r/Bitcoin
+2025-02-18 18:13:41,355 - INFO - Fetching from r/CryptoCurrency
+2025-02-18 18:13:53,646 - INFO - Found 113 matching posts in r/CryptoCurrency
+2025-02-18 18:13:53,647 - INFO - Fetching from r/CryptoMarkets
+2025-02-18 18:14:05,800 - INFO - Found 64 matching posts in r/CryptoMarkets
+2025-02-18 18:14:05,801 - INFO - Fetching from r/btc
+2025-02-18 18:14:19,472 - INFO - Found 62 matching posts in r/btc
+2025-02-18 18:14:19,473 - INFO - Total posts processed: 3504
+2025-02-18 18:14:19,473 - INFO - Total matching posts: 623
+2025-02-18 18:14:19,475 - INFO - Processing DataFrame with columns: ['subreddit', 'title', 'text', 'upvotes', 'num_comments', 'created_utc', 'cryptocurrency']
+2025-02-18 18:14:20,021 - INFO - Data saved to artifacts/reddit_raw.csv
+2025-02-18 18:14:20,024 - INFO - Data saved to artifacts/reddit_sentiment.csv
+2025-02-18 18:14:20,024 - INFO - Pipeline executed successfully!
