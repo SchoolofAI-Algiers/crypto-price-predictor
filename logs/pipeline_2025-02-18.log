@@ -1,0 +1,26 @@
+2025-02-18 17:13:35,773 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 17:13:48,550 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 17:13:50,531 - INFO - Data successfully processed and cleaned.
+2025-02-18 17:13:50,561 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 17:13:51,610 - ERROR - Error fetching Twitter data: 401 Unauthorized
+89 - Invalid or expired token.
+2025-02-18 17:13:51,610 - ERROR - An error occurred in the pipeline: Twitter API Request Failed: 401 Unauthorized
+89 - Invalid or expired token.
+2025-02-18 17:18:35,640 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 17:18:38,270 - INFO - Data successfully processed and cleaned.
+2025-02-18 17:18:38,280 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 17:18:38,280 - ERROR - An error occurred in the pipeline: TwitterDataFetcher.fetch_tweets() got an unexpected keyword argument 'count'
+2025-02-18 17:20:10,650 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 17:20:13,969 - INFO - Data successfully processed and cleaned.
+2025-02-18 17:20:13,982 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 17:20:14,556 - INFO - Successfully fetched 10 tweets.
+2025-02-18 17:20:14,558 - INFO - Tweet data successfully processed and cleaned.
+2025-02-18 17:20:14,559 - INFO - Tweet data successfully saved to artifacts/twitter_data.csv
+2025-02-18 17:20:14,591 - INFO - Pipeline executed successfully!
+2025-02-18 17:22:01,079 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 17:22:03,895 - INFO - Data successfully processed and cleaned.
+2025-02-18 17:22:03,912 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 17:22:04,265 - ERROR - Error fetching Twitter data: 429 Too Many Requests
+Too Many Requests
+2025-02-18 17:22:04,265 - ERROR - An error occurred in the pipeline: Twitter API Request Failed: 429 Too Many Requests
+Too Many Requests
