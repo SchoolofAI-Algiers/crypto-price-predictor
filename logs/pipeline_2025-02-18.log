@@ -24,3 +24,36 @@
 Too Many Requests
 2025-02-18 17:22:04,265 - ERROR - An error occurred in the pipeline: Twitter API Request Failed: 429 Too Many Requests
 Too Many Requests
+2025-02-18 18:43:40,432 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:43:42,308 - INFO - Data successfully processed and cleaned.
+2025-02-18 18:43:42,317 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 18:43:43,261 - ERROR - Error fetching Twitter data: 400 Bad Request
+There were errors processing your request: Reference to invalid operator 'cashtag'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 1)
+2025-02-18 18:43:43,262 - ERROR - An error occurred in the pipeline: Twitter API Request Failed: 400 Bad Request
+There were errors processing your request: Reference to invalid operator 'cashtag'. Operator is not available in current product or product packaging. Please refer to complete available operator list at http://t.co/operators. (at position 1)
+2025-02-18 18:44:12,080 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:44:14,385 - INFO - Data successfully processed and cleaned.
+2025-02-18 18:44:14,396 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 18:44:14,396 - INFO - Fetching historical data for bitcoin-USD...
+2025-02-18 18:44:15,980 - INFO - Successfully fetched 122 rows of data.
+2025-02-18 18:44:15,995 - INFO - Pipeline executed successfully!
+2025-02-18 18:53:08,720 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:53:08,721 - ERROR - An error occurred in the pipeline: 'BTC'
+2025-02-18 18:53:25,927 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:53:27,557 - INFO - Data successfully processed and cleaned.
+2025-02-18 18:53:27,578 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 18:53:27,578 - INFO - Fetching historical data for bitcoin-USD from 2024-01-01 to 2024-06-30...
+2025-02-18 18:53:29,311 - INFO - Successfully fetched 167 rows of data.
+2025-02-18 18:53:29,326 - INFO - Pipeline executed successfully!
+2025-02-18 18:53:54,574 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:53:56,317 - INFO - Data successfully processed and cleaned.
+2025-02-18 18:53:56,326 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 18:53:56,327 - INFO - Fetching historical data for bitcoin-USD from 2024-01-01 to 2024-06-30...
+2025-02-18 18:53:57,601 - INFO - Successfully fetched 167 rows of data.
+2025-02-18 18:53:57,618 - INFO - Pipeline executed successfully!
+2025-02-18 18:54:54,130 - INFO - Starting the cryptocurrency data pipeline...
+2025-02-18 18:54:55,838 - INFO - Data successfully processed and cleaned.
+2025-02-18 18:54:55,858 - INFO - Data successfully saved to artifacts/crypto_data.csv
+2025-02-18 18:54:55,859 - INFO - Fetching historical data for BTC-USD from 2024-01-01 to 2024-06-30...
+2025-02-18 18:54:57,396 - INFO - Successfully fetched 181 rows of data.
+2025-02-18 18:54:57,408 - INFO - Pipeline executed successfully!

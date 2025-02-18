@@ -5,6 +5,7 @@ from src.components.binance.data_fetcher import DataFetcher
 from src.components.binance.data_preprocessor import DataPreprocessor
 from src.components.twitter.data_fetcher import TwitterDataFetcher
 from src.components.twitter.data_preprocessor import TextDataPreprocessor
+from src.components.yahoo_finance.data_fetcher import YahooFinanceFetcher
 import argparse
 
 # python pipeline_manager.py --coin_name bitcoin --interval 1d --limit 365 --tweet_count 10
@@ -22,7 +23,9 @@ if __name__ == "__main__":
         parser.add_argument("--interval", type=str, default="1d", help="Time interval (e.g., 1m, 1h, 1d)")
         parser.add_argument("--limit", type=int, default=365, help="Number of data points to fetch")
         parser.add_argument("--tweet_count", type=int, default=10, help="Number of tweets to fetch")
-
+        parser.add_argument("--start_date", type=str, help="Start date for Yahoo Finance data (YYYY-MM-DD)", required=True)
+        parser.add_argument("--end_date", type=str, help="End date for Yahoo Finance data (YYYY-MM-DD)", required=True)
+        
         args = parser.parse_args()
 
         # Step 1: Fetch data from Binance
@@ -68,6 +71,22 @@ if __name__ == "__main__":
         print(df.head())
         print("Twitter Data:")
         print(tweet_df.head())
+
+        # Step 8: Fetch data from Yahoo Finance
+        print("Step 8: Fetching data from Yahoo Finance...")
+        # yahoo_fetcher = YahooFinanceFetcher(ticker=f"{args.coin_name}-USD")
+        yahoo_fetcher = YahooFinanceFetcher(ticker="BTC-USD")
+        yahoo_data = yahoo_fetcher.fetch_historical_data(start=args.start_date, end=args.end_date, interval=args.interval)
+        print("Step 8 completed.")
+
+        # Step 9: Save Yahoo Finance data to CSV
+        print("Step 9: Saving Yahoo Finance data to CSV...")
+        yahoo_data.to_csv("artifacts/yahoo_finance_data.csv", index=False)
+        print("Step 9 completed.")
+
+        # Step 10: Display Yahoo Finance data sample
+        print("Step 10: Displaying Yahoo Finance data sample...")
+        print(yahoo_data.head())
 
         logger.info("Pipeline executed successfully!")
         print("Pipeline executed successfully!")
