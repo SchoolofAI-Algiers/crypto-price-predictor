@@ -76,4 +76,3 @@ class DataFetcher:
                 raise CustomException(f"API Request Failed: {e}")
 
         return all_data[:self.limit]  # Ensure we return exactly `limit` rows
-
